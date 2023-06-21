@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aave-liquidation-model"
+version = "0.1.0"
+description = "Contains code for modeling different liquidation scenarios in AAVE"
+authors = ["Your Name <you@example.com>"]
+license = "GNU"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pandas = "^2.0.2"
+pytest-warnings = "^0.3.1"
+numpy = "^1.25.0"
+web3 = "^6.5.0"
+unsync = "^1.4.0"
+plotly = "^5.15.0"
+seaborn = "^0.12.2"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
